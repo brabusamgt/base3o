@@ -1,2 +1,4 @@
 # base3o
 Using Python to Detect Contract Ownership Status Python:
+owner = contract.functions.owner().call()
+print("Owner:", owner)
